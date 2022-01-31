@@ -16,7 +16,7 @@
 					<div class="container">
 						<div class="justify-content-flex-start">
 							<a class="navbar-brand active" aria-current="page" href="index.html">
-								<img src="./Media/KH.png" alt="" width="40" height="40">
+								<img class="icon" src="./media/kh.png">
 							</a>
 						</div>
 					</div>
@@ -26,29 +26,29 @@
 			<div class="container">
 				<h1 class="py-5 text-center">Welcome!</h1>
 			</div>
-			<div class="container border border-dark border-3 rounded" style="height: 400px; width: 400px;" id="Index">
-				<div class="container" id="title">
+			<div class="index">
+				<div class="container">
 					<h1 class="p-2 pb-2 text-center border-bottom border-dark">Index</h1>
 				</div>
-				<div class="container d-flex justify-content-start" id="IndexNav" style="height: 300px;">
+				<div class="indexnav container d-flex justify-content-start">
 					<ul class="nav flex-column justify-content-around">
 						<li class="nav-item">
-							<a class="nav-link" href="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\About me\index.html">
-								<img src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\Head.png" alt="" width="40" height="40">
+							<a class="nav-link" href="./about-me/index.html">
+								<img class="icon" src="./media/head.png">
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Devblog\index.html">
-								<img src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\Books Icon.png" alt="" width="40" height="40">
+							<a class="nav-link" href="./devblog/index.html">
+								<img class="icon" src="./media/booksIcon.png">
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-								<img src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\Question Mark Icon.png" alt="" width="40" height="40">
+								<img class="icon" src="./media/questionmarkIcon.png">
 							</a>
 						</li>
 					</ul>
-					<div class="container d-flex justify-content-end" style="height: 300px;">
+					<div class="container d-flex justify-content-end">
 						<ul class="nav flex-column justify-content-around">
 							<li>
 								<h3>About Me</h3>
@@ -72,17 +72,17 @@
 							<ul class="nav justify-content-end">
 								<li class="nav-item">
 									<a class="nav-link" href="https://www.instagram.com/sh4dow_m0narch/" target="_blank">
-										<img class="icon" src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\Instagram Icon.png">
+										<img class="icon" src="./media/instagramIcon.png">
 									</a>
 								</li>
 								<li>
 									<a class="nav-link" href="https://twitter.com/Shad0w_M0narch" target="_blank">
-										<img class="icon" src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\Twitter Icon.png">
+										<img class="icon" src="./media/twitterIcon.png">
 									</a>
 								</li>
 								<li>
 									<a class="nav-link" href="https://www.youtube.com/channel/UCFuNhqRuM3fInQbfcmaYYSg" target="_blank">
-										<img class="icon" src="C:\Users\Robin Schmid\Desktop\Kanbina\Programming\Web2\Media\YouTube Icon.png">
+										<img class="icon" src="./media/youtubeIcon.png">
 									</a>
 								</li>
 							</ul>
