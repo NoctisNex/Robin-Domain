@@ -1,14 +1,26 @@
-.header {
+html {
 	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 100px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
 	width: 100%;
-	top: 0;
 	background-color: #41b2c1;
 }
 
-.footer {
-	position: relative;
+footer {
+	position: absolute;
 	left: 0;
 	bottom: 0;
+	height: 100px;
 	width: 100%;
 	background-color: #41b2c1;
 }

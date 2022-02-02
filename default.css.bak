@@ -6,10 +6,6 @@
 }
 
 .footer {
-	position: sticky;
-	left: 0;
-	bottom: 0;
-	width: 100%;
 	background-color: #41b2c1;
 }
 
@@ -28,4 +24,8 @@
 
 .indexnav {
 	height: 300px;
+}
+
+.mt-auto {
+	margin-top: auto;
 }
