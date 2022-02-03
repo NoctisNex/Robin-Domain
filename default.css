@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	background: rgb(71,56,56);
-	background: linear-gradient(216deg, rgba(71,56,56,1) 0%, rgba(22,22,28,1) 100%);
+	background: rgb(24,32,55);
+	background: linear-gradient(216deg, rgba(24,32,55,1) 0%, rgba(14,14,17,1) 100%);
 	color: white;
 	margin: 0 0 100px;
 	padding-bottom: 100px;
@@ -30,7 +30,6 @@ footer {
 	bottom: 0;
 	height: 100px;
 	width: 100%;
-	color: white;
 }
 
 .icon {
