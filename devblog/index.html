@@ -11,34 +11,37 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul class="topnav">
-					<li class="logo">
-						<a href="../index.html">
-							<img src="../media/kh.png" class="logo" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../index.html">Home</a>
-					</li>
-					<li>
-						<a href="../about-me/index.html">About me</a>
-					</li>
-					<li class="active" aria-current="page">
-						<a href="./index.html">Devblog</a>
-					</li>
-					<li>
-						<a href="../contact/index.html">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+		<div class="header container pt-3">
+			<div class="d-flex">
+				<div class="logo">
+					<a class href="../index.html">
+						<img src="../media/kh.png" class="logo" alt="">
+					</a>
+				</div>
+				<div class="flex-grow-1"></div>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li class="ms-3">
+							<a href="../about-me/index.html">About me</a>
+						</li>
+						<li class="active ms-3" aria-current="page">
+							<a href="./index.html">Devblog</a>
+						</li>
+						<li class="ms-3">
+							<a href="../contact/index.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		<main>
 			<div class="container">
-				<h1 class="py-5 text-center">Devblog</h1>
+				<h1 class="py-5 white-txt text-center">Devblog</h1>
 				<section>
-					<p>
+					<p class="white-txt">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nibh sodales nibh porttitor tempus at sed mauris. Maecenas sagittis in tellus et consequat. Aliquam odio arcu, tristique non enim quis, sagittis condimentum risus. Ut et erat ultrices, condimentum eros a, laoreet tortor. Cras volutpat sed elit ac aliquam. Donec consectetur tellus in laoreet pretium. Morbi blandit neque augue, et dictum libero sodales non. Vestibulum eu metus ante. Proin enim elit, condimentum at arcu et, euismod placerat lacus. Sed tempor consequat erat, vitae convallis metus ornare ac. Phasellus in tincidunt turpis, quis scelerisque magna. Curabitur non nisl libero. Phasellus nec sagittis leo, congue ullamcorper tellus. Vivamus porta molestie porttitor.
 						Phasellus pharetra, massa vel varius dapibus, massa est elementum tortor, non sollicitudin leo mi ac eros. Maecenas mattis euismod odio vitae maximus. Vivamus ultricies ullamcorper euismod. Nam dui libero, eleifend sed porttitor eu, vehicula ac sem. Fusce ac enim suscipit, congue nunc non, auctor justo. Duis pharetra imperdiet nisl, in congue leo viverra nec. Integer dignissim, ipsum quis fermentum gravida, sem justo vehicula ex, a vestibulum magna velit quis enim. Proin eu velit sit amet ipsum feugiat elementum sit amet sit amet leo. Sed semper, sem ac interdum facilisis, ligula ex venenatis neque, vel molestie magna nisl vel dolor.
 						Suspendisse leo augue, elementum aliquet eleifend in, porta non mauris. Pellentesque tristique sollicitudin pellentesque. Integer vehicula, orci id condimentum porttitor, sapien est consectetur diam, a laoreet felis erat non dolor. Nam risus ex, congue ut ex at, sollicitudin finibus metus. Donec luctus augue non nisl eleifend aliquet. Integer et lectus nec risus accumsan placerat. Suspendisse tincidunt velit vel rutrum mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus et lectus vel tempor. Proin at nisi commodo, cursus arcu at, pellentesque mi. Nulla sollicitudin aliquam lacus, sed semper ligula semper eu. Praesent malesuada viverra ante, id tempor tortor egestas ut. Etiam ante sem, volutpat vitae sagittis eget, finibus nec est. Vestibulum varius erat nisi. Morbi mauris lectus, vehicula ac massa id, sollicitudin feugiat tortor.
@@ -58,11 +61,13 @@
 				</section>
 			</div>
 		</main>
-		<footer>
-			<div class="container-fluid">
-				<h5>© 2022 Robin Schmid</h5>
+		<div class="footer">
+			<div class="container">
+				<div class="py-2">
+					<h5>© 2022 Robin Schmid</h5>
+				</div>
 			</div>
-		</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>	
 </html>
