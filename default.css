@@ -6,50 +6,28 @@ html {
 body {
 	background: rgb(24,32,55);
 	background: linear-gradient(216deg, rgba(24,32,55,1) 0%, rgba(14,14,17,1) 100%);
-	color: white;
-	margin: 0 0 100px; // TODO
 }
 
-* {
-	box-sizing: border-box;
-}
-
-div {
-	color: white;
-}
-
-ul {
-	padding-left: 0 !important;
-}
-
-li {
-	color: white;
+main {
+	padding-bottom: 50px;
 }
 
 a {
 	text-decoration: none !important;
-	color: inherit !important;
+	color: white !important;
 }
 
-footer {
-	/*position: absolute;
-	left: 100px;
+.footer {
+	position: absolute;
+	color: white;
+	height: 50px;
+	width: 100%;
 	bottom: 0;
-	height: 75px;*/
-}
-
-.topnav {
-	text-align: right;
-    list-style: none;
-    color: white;
-	font-size: 25px;
 }
 
 .logo {
-	position: relative;
-	float: left;
 	width: 50px;
-	height: 50px; // TODO
+	height: 50px;
 }
 
 li {
@@ -60,27 +38,12 @@ li {
 .welc {
 	color: white;
 	font-size: 100px;
-	margin-top: 29%; // TODO
 	text-align: center;
   }
 
 .icon {
 	width: 40px;
 	height: 40px;
-}
-
-.index {
-	color: white;
-	margin: auto;
-	border-radius: 15px;
-	border: 2px solid white;
-	height: 400px; 
-	width: 400px; // TODO
-}
-
-.indexnav {
-	color: white;
-	height: 300px; // TODO
 }
 
 .container {
@@ -92,12 +55,6 @@ li {
 	color: red;
 }
 
-main {
-	padding-bottom: 50px;
-}
-
-.footer {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
+.white-txt {
+	color: white;
 }
