@@ -35,12 +35,17 @@
 			<section>
 				<div class="container white-txt text-center">
 					<div class="title">Devblog</div>
-					<div class="container">
-						<p class="text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nibh sodales nibh porttitor tempus at sed mauris. Maecenas sagittis in tellus et consequat. Aliquam odio arcu, tristique non enim quis, sagittis condimentum risus. Ut et erat ultrices, condimentum eros a, laoreet tortor. Cras volutpat sed elit ac aliquam. Donec consectetur tellus in laoreet pretium. Morbi blandit neque augue, et dictum libero sodales non. Vestibulum eu metus ante. Proin enim elit, condimentum at arcu et, euismod placerat lacus. Sed tempor consequat erat, vitae convallis metus ornare ac. Phasellus in tincidunt turpis, quis scelerisque magna. Curabitur non nisl libero. Phasellus nec sagittis leo, congue ullamcorper tellus. Vivamus porta molestie porttitor. Phasellus pharetra, massa vel varius dapibus, massa est elementum tortor, non sollicitudin leo mi ac eros. Maecenas mattis euismod odio vitae maximus. Vivamus ultricies ullamcorper euismod. Nam dui libero, eleifend sed porttitor eu, vehicula ac
-							sem. Fusce ac enim suscipit, congue nunc non, auctor justo. Duis pharetra imperdiet nisl, in congue leo viverra nec. Integer dignissim, ipsum quis fermentum gravida, sem justo vehicula ex, a vestibulum magna velit quis enim. Proin eu velit sit amet ipsum feugiat elementum sit amet sit amet leo. Sed semper, sem ac interdum facilisis, ligula ex venenatis neque, vel molestie magna nisl vel dolor. Suspendisse leo augue, elementum aliquet eleifend in, porta non mauris. Pellentesque tristique sollicitudin pellentesque. Integer vehicula, orci id condimentum porttitor, sapien est consectetur diam, a laoreet felis erat non dolor. Nam risus ex, congue ut ex at, sollicitudin finibus metus. Donec luctus augue non nisl eleifend aliquet. Integer et lectus nec risus accumsan placerat. Suspendisse tincidunt velit vel rutrum mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus et lectus vel tempor. Proin at nisi commodo, cursus arcu at, pellentesque mi. Nulla sollicitudin
-							aliquam lacus, sed semper ligula semper eu.
-						</p>
+					<div class="container pb-3">
+						<button type="button" class="collapsible">Entry 1 | Prologue</button>
+						<div class="contentdevblog">
+							<p>I started a buildup training at an institution called durchstart. Durchstart is an institution that is committed to work integration for young people with mental disabilities and in difficult life situations. To keep myself busy I had to decide on a project that I wanted to do. Considering the future and what kind of project I would ultimately profit off of the most, I decided to program a website with my own portfolio on it with HTML and CSS. Having experience programming would be a huge benefit in my journey to find an apprenticeship as an IT application-developer.</p>
+						</div>
+					</div>
+					<div class="container pb-3">
+						<button type="button" class="collapsible">Entry 2 | The Beginning</button>
+						<div class="contentdevblog">
+							<p>Having pretty much no prior experience in web-development, I began my endeavours in developing a website relatively simple and watched an HTML course on YouTube. After watching that I knew of some basic HTML tags that I could use to put text on my website. I played around with some tags that were presented in the video to get a feel for what they do and how they could be used. Obviously my website wasn't just going to be some black on white text, so I needed to eventually start using CSS to give my website some life. But that was going to be a problem for another day.</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -52,6 +57,22 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function () {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.maxHeight) {
+						content.style.maxHeight = null;
+					} else {
+						content.style.maxHeight = content.scrollHeight + "px";
+					}
+				});
+			}
+		</script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>
 </html>
