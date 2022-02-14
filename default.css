@@ -120,3 +120,30 @@ li {
 .white-txt {
 	color: white;
 }
+
+.collapsible {
+	background-color: inherit;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+}
+
+.active .collapsible:hover {
+	background-color: #ccc;
+}
+
+.contentdevblog {
+	color: white;
+	padding: 0 18px;
+	background-color: inherit;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
