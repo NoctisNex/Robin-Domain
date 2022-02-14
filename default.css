@@ -39,8 +39,25 @@ a {
 	height: 50px;
 }
 
+.menu {
+	display: flex;
+	justify-content: center;
+}
+
 li {
 	display: inline-block;
+}
+
+.topul {
+	padding-inline-start: 0 !important;
+}
+
+.topli-one {
+	font-size: 25px;
+}
+
+.topli-one:hover {
+	filter: brightness(0.7);
 }
 
 .topli {
