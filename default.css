@@ -136,6 +136,7 @@ li {
 }
 
 .collapsible:hover {
+	transition: all 0.2s;
 	filter: brightness(0.7);
 }
 
