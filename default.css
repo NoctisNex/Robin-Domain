@@ -135,8 +135,8 @@ li {
 	font-size: 15px;
 }
 
-.active .collapsible:hover {
-	background-color: #ccc;
+.collapsible:hover {
+	filter: brightness(0.7);
 }
 
 .contentdevblog {
