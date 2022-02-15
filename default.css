@@ -57,7 +57,7 @@ li {
 }
 
 .topli-one:hover {
-	transition: all 0.2s;
+	transition: all 0.1s;
 	filter: brightness(0.7);
 }
 
@@ -67,7 +67,7 @@ li {
 }
 
 .topli:hover {
-	transition: all 0.2s;
+	transition: all 0.1s;
 	filter: brightness(0.7);
 }
 
@@ -104,7 +104,7 @@ li {
 }
 
 .contacticon:hover {
-	transition: all 0.2s;
+	transition: all 0.1s;
 	filter: brightness(0.7);
 }
 
@@ -136,7 +136,7 @@ li {
 }
 
 .collapsible:hover {
-	transition: all 0.2s;
+	transition: all 0.1s;
 	filter: brightness(0.7);
 }
 
