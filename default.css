@@ -1,5 +1,4 @@
 html {
-	position: relative;
 	min-height: 100%;
 }
 
@@ -12,13 +11,13 @@ html {
 }
 
 body {
-	background: rgb(24, 32, 55);
-	background: linear-gradient(216deg, rgba(24, 32, 55, 1) 0%, rgba(14, 14, 17, 1) 100%);
+	background: rgb(14, 14, 17);
+	background: -moz-linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background: -webkit-linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background: linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background-repeat: repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e11",endColorstr="#182037",GradientType=1);
 	color: white;
-}
-
-main {
-	padding-bottom: 50px;
 }
 
 a {
@@ -147,4 +146,11 @@ li {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
+}
+
+@media screen and (max-width: 600px) {
+	.welc {
+		font-size: 50px;
+		padding-top: 100px;
+	}
 }
