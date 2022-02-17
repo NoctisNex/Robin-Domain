@@ -30,6 +30,7 @@ a {
 .footer {
 	position: absolute;
 	color: white;
+	font-size: 20px;
 	height: 50px;
 	width: 100%;
 	bottom: 0;
@@ -171,5 +172,8 @@ li {
 	.text {
 		font-size: 15px;
 		line-height: 30px;
+	}
+	.footer {
+		font-size: 12px;
 	}
 }
