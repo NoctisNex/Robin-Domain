@@ -86,7 +86,7 @@ The website is fully responsive and includes:
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-website
+   cd Robin-Domain
    ```
 
 3. Open `index.html` in your web browser or use a local server:
