@@ -18,7 +18,7 @@
 
 This is my personal portfolio website that I created as part of my journey into web development. As an 18-year-old computer enthusiast from Switzerland, I built this website to showcase my skills and document my learning process while seeking an apprenticeship in computer science.
 
-The website serves as both a professional portfolio and a development blog where I chronicle my experiences learning HTML, CSS, and Bootstrap from scratch.
+The website served as both a professional portfolio and a development blog where I chronicled my experiences learning HTML, CSS, and Bootstrap from scratch. This project is now archived and represents a snapshot of my early web development journey.
 
 ## ✨ Features
 
@@ -123,30 +123,16 @@ portfolio-website/
 
 ## 🎯 Learning Journey
 
-This project represents my first steps into web development:
+This project represented my first steps into web development:
 
 1. **Week 1**: Started with basic HTML structure
 2. **Week 2**: Learned CSS fundamentals and styling
 3. **Week 3**: Integrated Bootstrap for responsive design
-4. **Ongoing**: Continuous improvement and feature additions
+4. **Completed**: Project finalized and archived
 
-## 📈 Future Plans
+## 📋 Project Status
 
-- [ ] Add more interactive JavaScript features
-- [ ] Implement a contact form with backend processing
-- [ ] Add more blog entries documenting progress
-- [ ] Optimize performance and loading times
-- [ ] Add dark/light theme toggle
-- [ ] Implement smooth scrolling and animations
-
-## 🤝 Contributing
-
-While this is a personal portfolio project, I welcome feedback and suggestions! If you have ideas for improvements or spot any issues, please feel free to:
-
-1. Open an issue describing the problem or suggestion
-2. Fork the repository
-3. Create a feature branch
-4. Submit a pull request
+This project is **archived** and no longer actively maintained. It serves as a historical record of my early web development journey and learning process.
 
 ## 📞 Contact
 
@@ -166,4 +152,5 @@ This project is open source and available under the [MIT License](LICENSE).
 <div align="center">
   <p>Made with ❤️ by Robin Schmid</p>
   <p>© 2022 Robin Schmid. All rights reserved.</p>
+  <p><em>This project is archived and no longer maintained.</em></p>
 </div>
