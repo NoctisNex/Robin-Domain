@@ -15,7 +15,7 @@ Built with passion by a young computer enthusiast from Switzerland 🇨🇭
 
 This is my personal portfolio website that I created as part of my journey into web development. As an 18-year-old computer enthusiast from Switzerland, I built this website to showcase my skills and document my learning process while seeking an apprenticeship in computer science.
 
-The website served as both a professional portfolio and a development blog where I chronicled my experiences learning HTML, CSS, and Bootstrap from scratch. This project is now archived and represents a snapshot of my early web development journey.
+The website served as both a professional portfolio and a development blog where I chronicled my experiences learning HTML, CSS, and Bootstrap from scratch. I later updated it with modern design improvements for aesthetic purposes, but this project is no longer actively maintained and represents a snapshot of my early web development journey.
 
 ## ✨ Features
 
@@ -139,7 +139,7 @@ This project represented my first steps into web development:
 
 ## 📋 Project Status
 
-This project is **archived** and no longer actively maintained. It serves as a historical record of my early web development journey and learning process.
+This project is **no longer actively maintained**. While I updated it with modern design improvements for aesthetic purposes, it remains essentially abandoned and serves as a historical record of my early web development journey and learning process.
 
 ## 📞 Contact Information
 
@@ -159,4 +159,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 © 2022 Robin Schmid. All rights reserved.
 
-*This project is archived and no longer maintained.*
+*This project is no longer actively maintained - updated for aesthetic purposes only.*
