@@ -1,16 +1,13 @@
 # 🌟 Robin Schmid - Personal Portfolio Website
 
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-</div>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-<div align="center">
-  <h3>🚀 A modern, responsive portfolio website showcasing my journey into web development</h3>
-  <p><strong>Built with passion by a young computer enthusiast from Switzerland 🇨🇭</strong></p>
-</div>
+## 🚀 A modern, responsive portfolio website showcasing my journey into web development
+
+Built with passion by a young computer enthusiast from Switzerland 🇨🇭
 
 ---
 
@@ -22,17 +19,20 @@ The website served as both a professional portfolio and a development blog where
 
 ## ✨ Features
 
-### 🏠 **Home Page**
+### 🏠 Home Page
+
 - Clean, welcoming landing page
 - Modern gradient background design
 - Responsive navigation menu
 
-### 👨‍💻 **About Me**
+### 👨‍💻 About Me
+
 - Personal introduction and background
 - Professional goals and aspirations
 - Journey into computer science
 
-### 📝 **Development Blog**
+### 📝 Development Blog
+
 - Interactive collapsible blog entries
 - Detailed documentation of learning process
 - Real-time updates on development journey
@@ -42,7 +42,8 @@ The website served as both a professional portfolio and a development blog where
   - Introduction to Bootstrap framework
   - Responsive design implementation
 
-### 📞 **Contact**
+### 📞 Contact
+
 - Professional contact information
 - Social media links (LinkedIn, Xing)
 - Email contact for business inquiries
@@ -67,6 +68,7 @@ The website served as both a professional portfolio and a development blog where
 ## 📱 Responsive Design
 
 The website is fully responsive and includes:
+
 - Mobile-optimized navigation
 - Scalable text and images
 - Touch-friendly interface elements
@@ -75,21 +77,26 @@ The website is fully responsive and includes:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - A modern web browser
 - No additional dependencies required
 
 ### Installation
+
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/NoctisNex/Robin-Domain.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd Robin-Domain
    ```
 
 3. Open `index.html` in your web browser or use a local server:
+
    ```bash
    # Using Python
    python -m http.server 8000
@@ -102,7 +109,7 @@ The website is fully responsive and includes:
 
 ## 📁 Project Structure
 
-```
+```text
 portfolio-website/
 ├── index.html              # Main homepage
 ├── default.css             # Custom stylesheet
@@ -134,9 +141,8 @@ This project represented my first steps into web development:
 
 This project is **archived** and no longer actively maintained. It serves as a historical record of my early web development journey and learning process.
 
-## 📞 Contact
+## 📞 Contact Information
 
-**Robin Schmid**
 - 📧 Email: [robin.schmid.business@gmail.com](mailto:robin.schmid.business@gmail.com)
 - 💼 LinkedIn: [Robin Schmid](https://www.linkedin.com/in/robin-s-881055231/)
 - 🌐 Xing: [Robin Schmid](https://www.xing.com/profile/Robin_Schmid33/cv)
@@ -149,8 +155,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-<div align="center">
-  <p>Made with ❤️ by Robin Schmid</p>
-  <p>© 2022 Robin Schmid. All rights reserved.</p>
-  <p><em>This project is archived and no longer maintained.</em></p>
-</div>
+## Made with ❤️ by Robin Schmid
+
+© 2022 Robin Schmid. All rights reserved.
+
+*This project is archived and no longer maintained.*
