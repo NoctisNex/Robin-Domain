@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>R.S | Home</title>
+		<meta name="description" content="This is a Portfolio about Robin Schmid">
+		<meta name="author" content="Robin Schmid">
+		<link href="./default.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+	</head>
+	<body class="d-flex flex-column h-100">
+		<header class="header">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<div class="container">
+					<div class="justify-content-flex-start">
+						<a class="navbar-brand active" aria-current="page" href="index.html">
+							<img class="icon" src="./media/kh.png">
+							</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-shrink-0">
+			<div class="container">
+				<h1 class="py-5 text-center">Welcome!</h1>
+			</div>
+			<div class="index">
+				<div class="container">
+					<h1 class="p-2 pb-2 text-center border-bottom border-dark">Index</h1>
+				</div>
+				<div class="indexnav container d-flex justify-content-start">
+					<ul class="nav flex-column justify-content-around">
+						<li class="nav-item">
+							<a class="nav-link" href="./about-me/index.html">
+								<img class="icon" src="./media/head.png">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./devblog/index.html">
+								<img class="icon" src="./media/booksIcon.png">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+								<img class="icon" src="./media/questionmarkIcon.png">
+							</a>
+						</li>
+					</ul>
+					<div class="container d-flex justify-content-end">
+						<ul class="nav flex-column justify-content-around">
+							<li>
+								<h3>About Me</h3>
+							</li>
+							<li>
+								<h3>Devblog</h3>
+							</li>
+							<li>
+								<h3>Mystery</h3>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer mt-auto py-3">
+			<div class="row">
+				<h5 class="text-end">You can also find me on</h5>
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.instagram.com/sh4dow_m0narch/" target="_blank">
+							<img class="icon" src="./media/instagramIcon.png">
+						</a>
+					</li>
+					<li>
+						<a class="nav-link" href="https://twitter.com/Shad0w_M0narch" target="_blank">
+							<img class="icon" src="./media/twitterIcon.png">
+						</a>
+					</li>
+					<li>
+						<a class="nav-link" href="https://www.youtube.com/channel/UCFuNhqRuM3fInQbfcmaYYSg" target="_blank">
+							<img class="icon" src="./media/youtubeIcon.png">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>	
+</html>

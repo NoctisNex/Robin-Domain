@@ -1,0 +1,189 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.element::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+body {
+	background: rgb(14, 14, 17);
+	background: -moz-linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background: -webkit-linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background: linear-gradient(30deg, rgba(14, 14, 17, 1) 0%, rgba(24, 32, 55, 1) 100%);
+	background-repeat: repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e11",endColorstr="#182037",GradientType=1);
+	color: white;
+	padding-bottom: 50px;
+}
+
+a {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+.footer {
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	height: 30px;
+	width: 100%;
+	bottom: 0;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	display: inline-block;
+}
+
+.topul {
+	padding-inline-start: 0 !important;
+}
+
+.topli-one {
+	font-size: 25px;
+}
+
+.topli-one:hover {
+	transition: all 0.1s;
+	filter: brightness(0.7);
+}
+
+.topli {
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+.topli:hover {
+	transition: all 0.1s;
+	filter: brightness(0.7);
+}
+
+.welc {
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.title {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 50px 0 50px;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+}
+
+.text {
+	display: inline-block;
+	font-size: 25px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.contactul {
+	padding-left: 0 !important;
+}
+
+.contacticon {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+
+.contacticon:hover {
+	transition: all 0.1s;
+	filter: brightness(0.7);
+}
+
+.contacttxt {
+	font-size: 20px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.white-txt {
+	color: white;
+}
+
+.collapsible {
+	background-color: inherit;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+}
+
+.collapsible:hover {
+	transition: all 0.1s;
+	filter: brightness(0.7);
+}
+
+.contentdevblog {
+	color: white;
+	padding: 0 18px;
+	background-color: inherit;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+@media screen and (max-width: 600px) {
+	.welc {
+		font-size: 50px;
+		padding-top: 100px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.topli-one {
+		font-size: 13px;
+	}
+	.topli {
+		font-size: 13px;
+	}
+	.contacticon {
+		width: 35px;
+		height: 35px;
+	}
+	.text {
+		font-size: 15px;
+		line-height: 30px;
+	}
+	.footer {
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.footer {
+		padding-bottom: 50px;
+	}
+}

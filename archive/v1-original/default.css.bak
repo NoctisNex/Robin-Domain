@@ -1,0 +1,31 @@
+.header {
+	position: relative;
+	width: 100%;
+	top: 0;
+	background-color: #41b2c1;
+}
+
+.footer {
+	background-color: #41b2c1;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+}
+
+.index {
+	margin: auto;
+	border-radius: 15px;
+	border: 2px solid black;
+	height: 400px; 
+	width: 400px;
+}
+
+.indexnav {
+	height: 300px;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
