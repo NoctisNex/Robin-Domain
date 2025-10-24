@@ -925,14 +925,17 @@ li {
 .stat-row {
 	display: flex;
 	align-items: center;
-	gap: 15px;
+	gap: 10px;
+	width: 100%;
+	overflow: hidden;
 }
 
 .stat-name {
 	font-size: 1rem;
 	font-weight: 600;
 	color: #00d4ff;
-	min-width: 40px;
+	width: 40px;
+	flex-shrink: 0;
 	text-shadow: 0 0 8px rgba(0, 212, 255, 0.3);
 }
 
@@ -940,7 +943,8 @@ li {
 	font-size: 1.1rem;
 	font-weight: 700;
 	color: white;
-	min-width: 35px;
+	width: 35px;
+	flex-shrink: 0;
 }
 
 .stat-bar {
@@ -949,7 +953,8 @@ li {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 4px;
 	overflow: hidden;
-	min-width: 100px;
+	min-width: 0;
+	max-width: calc(100% - 95px);
 }
 
 .stat-fill {
@@ -980,13 +985,15 @@ li {
 	align-items: center;
 	gap: 15px;
 	margin-bottom: 12px;
+	width: 100%;
 }
 
 .skill-name {
 	font-size: 0.9rem;
 	font-weight: 500;
 	color: white;
-	min-width: 120px;
+	min-width: 0;
+	flex-shrink: 0;
 }
 
 .skill-bar {
@@ -995,7 +1002,8 @@ li {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 3px;
 	overflow: hidden;
-	min-width: 120px;
+	min-width: 0;
+	max-width: 100%;
 }
 
 .skill-fill {
@@ -1640,7 +1648,38 @@ li {
 	.skill-item {
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 10px;
+		gap: 8px;
+	}
+	
+	.skill-bar {
+		height: 10px;
+		width: 100%;
+		flex: none;
+	}
+	
+	.skill-fill {
+		height: 100%;
+	}
+	
+	.skill-name {
+		font-size: 0.85rem;
+		min-width: auto;
+		width: 100%;
+	}
+	
+	.skill-value {
+		font-size: 0.8rem;
+		align-self: flex-end;
+	}
+	
+	.stat-bar {
+		height: 10px;
+		width: 100%;
+		flex: none;
+	}
+	
+	.stat-fill {
+		height: 100%;
 	}
 	.skill-level {
 		width: 100%;
