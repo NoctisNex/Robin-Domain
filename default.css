@@ -816,6 +816,8 @@ li {
 	padding: 25px;
 	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 	animation: fadeInUp 0.6s ease-out 0.2s both;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .character-portrait {
@@ -882,7 +884,9 @@ li {
 .status-grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	gap: 20px;
+	gap: 30px;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .status-panel-left,
@@ -892,7 +896,7 @@ li {
 	backdrop-filter: blur(20px);
 	border-radius: 16px;
 	border: 1px solid rgba(255, 255, 255, 0.15);
-	padding: 20px;
+	padding: 30px;
 	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 	animation: fadeInUp 0.6s ease-out 0.4s both;
 }
@@ -915,13 +919,13 @@ li {
 .stats-container {
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 20px;
 }
 
 .stat-row {
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	gap: 15px;
 }
 
 .stat-name {
@@ -959,7 +963,7 @@ li {
 .skills-container {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 25px;
 }
 
 .skill-section h4 {
@@ -973,15 +977,15 @@ li {
 .skill-item {
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	margin-bottom: 8px;
+	gap: 15px;
+	margin-bottom: 12px;
 }
 
 .skill-name {
 	font-size: 0.9rem;
 	font-weight: 500;
 	color: white;
-	min-width: 80px;
+	min-width: 120px;
 }
 
 .skill-bar {
@@ -1085,7 +1089,9 @@ li {
 .bottom-panels {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 20px;
+	gap: 30px;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .achievements-panel,
